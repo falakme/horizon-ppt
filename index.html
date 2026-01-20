@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Horizon - Full Presentation</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://falakme.github.io/brand-assets/fonts/falaksans.css" rel="stylesheet">
+    <style>
+      /* Global Reset & Layout */
+      body {
+        font-family: 'FalakSans', sans-serif;
+        margin: 0;
+        padding: 0;
+        background: #0a0a0a;
+        overflow: hidden;
+        height: 100vh;
+      }
+      /* Custom scrollbar hiding if needed */
+      ::-webkit-scrollbar {
+        width: 0px;
+        background: transparent;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@18.3.1",
+    "react/": "https://esm.sh/react@18.3.1/",
+    "react-dom": "https://esm.sh/react-dom@18.3.1",
+    "react-dom/": "https://esm.sh/react-dom@18.3.1/",
+    "recharts": "https://esm.sh/recharts@2.13.0?external=react,react-dom",
+    "lucide-react": "https://esm.sh/lucide-react@0.454.0?external=react",
+    "framer-motion": "https://esm.sh/framer-motion@11.11.10?external=react,react-dom"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body>
+    <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
